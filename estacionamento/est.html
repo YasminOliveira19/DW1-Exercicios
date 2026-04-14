@@ -12,9 +12,13 @@
 <section>
 <h1>Estacionamento</h1>
 
-    <label for="inputh"> Horas estacionadas:</label>
-    <input type="number" name="inputh" id="inputh">
+    <label for="inpute">  Entrada (check-in):</label>
+    <input type="datetime-local" name="inpute" id="inpute">
     <br><br>
+    <label for="inputs">  Saída (check-out):</label>
+    <input type="datetime-local" name="inputs" id="inputs">
+    <br><br>
+
     <label for="inputc"> Carro grande:</label>
     <input type="checkbox" name="inputc" id="inputc">
     <br><br>
@@ -27,12 +31,12 @@
     <span id="saida"></span>
     <br>
     </section>
-</main>
+
 
     <footer id="footer">
         <span id="mensagem">Preencha os campos a cima e calcule</span>
     </footer>
-
+</main>
 <script src="est.js"></script>
 
 
