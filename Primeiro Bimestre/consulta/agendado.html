@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=" en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="agendado.css">
+</head>
+
+<body>
+    <main>
+        <header>CONSULTA AGENDADA COM SUCESSO!!</header>
+
+        <section id="conteudo-documento">
+            <p>
+                A consulta de <span id="resultadoConsulta" class="dado-preenchido"></span>,
+                no turno da <span id="resultadoTurno" class="dado-preenchido"></span>,
+                foi agendada no nome do(a) paciente <strong><span id="resultadoNome" class="dado-preenchido"></span></strong>,
+                portador(a) do CPF <span id="resultadoCpf" class="dado-preenchido"></span>, <br> com
+                <span id="resultadoIdade" class="dado-preenchido"></span> anos de idade,
+                na faixa etária:<span id="resultadoFaixaEtaria" class="dado-preenchido"></span>.
+            </p>
+            <p>
+                A consulta será feita na cidade de <strong><span id="resultadoCidade" class="dado-preenchido"></span></strong>.
+            </p>
+
+        </section>
+
+        <footer>
+            <div class="mensagem">
+                <p>Esperamos você na consulta!</p>
+            </div>
+        </footer>
+
+
+
+        <div class="botoes">
+            <button id="btnVoltar" class="btn-acao">Voltar para o Início</button>
+            <button onclick="window.print()" class="btn-acao btn-imprimir">Imprimir Documento</button>
+        </div>
+    </main>
+    <script src="agendado.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+
+  body {
+    text-align: center;
+    font-family: Arial;
+  }
+
+  input, select, button {
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  table {
+    margin: auto;
+    margin-top: 20px;
+  }

@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/* TÍTULO */
+h1 {
+  text-align: center;
+  color: black;
+}
+
+/* TEXTO */
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 15px 0;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/* LINHA (ASSINATURA) */
+.linha {
+  border-top: 1px solid black;
+  margin-top: 60px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ASSINATURA */
+.assinatura p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* BOTÕES */
+.acoes {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
